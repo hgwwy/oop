@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.wanshare.oop.observer</OriginalElement>
+  <nodes>
+    <node x="59.25" y="442.0">com.wanshare.oop.observer.CurrentConditionDisplay</node>
+    <node x="20.0" y="0.0">com.wanshare.oop.observer.Subject</node>
+    <node x="0.0" y="339.0">com.wanshare.oop.observer.DisplayElement</node>
+    <node x="165.0" y="339.0">com.wanshare.oop.observer.Observer</node>
+    <node x="0.0" y="149.0">com.wanshare.oop.observer.WeatherData</node>
+    <node x="448.0" y="339.0">com.wanshare.oop.observer.WeatherMain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wanshare.oop.observer.CurrentConditionDisplay" target="com.wanshare.oop.observer.DisplayElement">
+      <point x="-59.5" y="-38.0" />
+      <point x="118.75" y="417.0" />
+      <point x="72.5" y="417.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.wanshare.oop.observer.WeatherData" target="com.wanshare.oop.observer.Subject">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.wanshare.oop.observer.CurrentConditionDisplay" target="com.wanshare.oop.observer.Observer">
+      <point x="59.5" y="-38.0" />
+      <point x="237.75" y="417.0" />
+      <point x="284.0" y="417.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="147.5" y="262.0" />
+  <SelectedNodes>
+    <node>com.wanshare.oop.observer.Observer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
